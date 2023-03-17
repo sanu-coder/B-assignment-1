@@ -1,4 +1,7 @@
 # B-assignment-1
+
+To use the APIs, open the tool postman and there test it. Firstly you have to login with any of the credentials given below.
+
 For backend there are two dummy-ids
 
 ID-1 
