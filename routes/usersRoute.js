@@ -2,6 +2,7 @@ const express = require('express');
 const { create, findUser, update, findUserById } = require('../controllers/userControllers');
 const { passwordEncryption, createToken, verifyToken, isAuthenticated, auth } = require('../utils/authFunctions');
 const router = express.Router();
+
 router.get('/',(req,res)=>{
     res.send({
         result:"success",
